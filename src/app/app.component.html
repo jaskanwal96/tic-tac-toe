@@ -1,0 +1,9 @@
+<div class="game-container">
+  <div class="message">
+    <div class="message">{{message}}</div>
+    <button (click)="restart()">Restart</button>
+  </div>
+  <div class="grid">
+    <div *ngFor="let el of elements; let i = index;" class="cell" (click)="play(i)">{{el}}</div>
+  </div>
+</div>

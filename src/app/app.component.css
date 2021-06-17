@@ -1,0 +1,24 @@
+p {
+  font-family: Lato;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+
+  height: 200px;
+  grid-gap: 10px;
+}
+
+.message {
+  margin-bottom: 16px;
+}
+
+.cell {
+  background-color: lightblue;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
